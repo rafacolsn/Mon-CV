@@ -1,0 +1,86 @@
+body, h1, h2, h3, h4, h5, h6, p {
+  margin : 0;
+  padding : 0;
+}
+
+body {
+  background-color: blue;
+}
+main {
+  display: grid;
+  grid-template-rows: 15% 1fr;
+  background-color: green;
+}
+h5 {
+  color: #CA481A;
+}
+header {
+  grid-row: 1;
+  background-color: yellow;
+display: grid;
+  grid-template-columns: 25% auto 35%;
+}
+.infos-nom {
+  grid-column: 1;
+  background-color: white;
+  margin: auto;
+}
+
+.phone {
+  display: flex;
+}
+
+.photo {
+  grid-column: 3;
+  margin: 1em auto;
+
+}
+
+.photo img {
+  height: 12em;
+}
+/* fin du header */
+.container {
+  grid-row: 2;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 33% 1fr;
+  grid-template-rows: repeat (28, 1fr);
+}
+.titre {
+  display: flex;
+  color: #879AC6;
+}
+.infos{
+  grid-row: 1;
+  grid-column: 1;
+}
+.aptitudes {
+  grid-column: 1;
+  grid-row: 10
+}
+.langues {
+  grid-column: 1;
+}
+.outils {
+  grid-column: 1;
+}
+.profil {
+  grid-column: 2;
+}
+
+.experiences {
+  grid-column: 2;
+}
+
+.formations {
+  grid-column: 2;
+}
+
+.passions {
+  grid-column: 2;
+}
+
+.chiffres {
+  grid-column: 2;
+}
